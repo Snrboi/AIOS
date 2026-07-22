@@ -1,13 +1,18 @@
+# Welcome Section
 print("=" * 40)
 print("   WELCOME TO DEVELOPER OS")
 print("Current Version: v 0.1.0")
 print("=" * 40)
+
+# Data Collection Section
 name = input("Enter Name: ")
+age = int(input("Enter Age: "))
 location = input("Your location: ")
 current_program = input("What program are you cuurently learning? ")
 dream_career = input("What is your dream profession? ")
 github = input("What is your Github username? ")
 favourite_club = input("What is your Favourite football club? ")
+
 # Welcome Page
 print("=" * 40)
 print("      PROFILE")
@@ -19,10 +24,20 @@ print(f"Current Program: {current_program}")
 print(f"Dream Career: {dream_career}")
 print(f"Github: {github}")
 print(f"Favourite Club: {favourite_club}")
+
+# Validation Section
+print("=" * 40)
+print("  PROFILE VALIDATION")
+print("=" * 40)
+print(f"Adult: {age >= 18}")
+print(f"Chelsea Fan: {favourite_club == "chelsea"}")
+print(f"Github Username Matches: {github == "snrboi"}")
+
 # Utilities Section
 print("=" * 40)
 print("  LOADING UTILITIES.....")
 print("=" * 40)
+
 # Calculator
 print("=" * 40)
 print("  SIMPLE CALCULATOR")
@@ -35,6 +50,7 @@ print(f"Product: {a * b}")
 print(f"Quotient: {a / b}")
 print(f"Remainder: {a % b}")
 print(f"Power: {a ** b}")
+
 # Goodbye section
 print("=" * 40)
 print("Thank you for using DeveloperOS!")
