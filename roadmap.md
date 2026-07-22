@@ -1,24 +1,43 @@
 # DeveloperOS Roadmap
 
-## Phase 1 (Python Basics)
+## Version 0.1.0 ✅
 
-- [x] Welcome Screen
-- [x] User Profile
-- [x] Calculator
+- Welcome Screen
+- User Profile
+- Calculator
 
-## Phase 2
+## Version 0.2.0 ✅
 
-- [ ] Menu System
-- [ ] Multiple Screens
+- Profile Validation
 
-## Phase 3
+## Version 0.3.0
 
-- [ ] Functions
+- Decision Making (if statements)
 
-## Phase 4
+## Version 0.4.0
 
-- [ ] Data Storage
+- Menu Navigation
 
-## Phase 5
+## Version 0.5.0
 
-- [ ] Object-Oriented Programming
+- Loops
+
+## Version 0.6.0
+
+- Functions
+
+## Version 0.7.0
+
+- Lists
+
+## Version 0.8.0
+
+- Dictionaries
+
+## Version 0.9.0
+
+- File Storage
+
+## Version 1.0.0
+
+- Complete DeveloperOS

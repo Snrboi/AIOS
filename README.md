@@ -1,30 +1,40 @@
 # DeveloperOS
 
-DeveloperOS is my long-term Python project.
+DeveloperOS is a Python application I am building while learning software engineering.
 
-The goal of this application is to grow alongside my Python learning journey. Every new concept I learn is implemented as a new feature or an improvement to an existing one.
+The goal of this project is to apply every Python concept I learn by continuously improving one application instead of creating many unrelated mini-projects.
 
 ## Current Version
 
-v0.1.0
+v0.2.0
 
 ## Current Features
 
+- Welcome Screen
 - User Profile
-- Basic Calculator
+- Profile Validation
+- Simple Calculator
 
-## Planned Features
-
-- Navigation Menu
-- Notes
-- Task Manager
-- Expense Tracker
-- Football Statistics
-- Learning Tracker
-- GitHub Tracker
-- File Saving
-- Object-Oriented Design
-
-## Tech Stack
+## Technologies
 
 - Python
+
+## Learning Goals
+
+- Learn Python from beginner to advanced
+- Practice software engineering principles
+- Learn Git and GitHub
+- Build a real application incrementally
+
+## Roadmap
+
+- [x] User Profile
+- [x] Calculator
+- [x] Profile Validation
+- [ ] Decision Making
+- [ ] Menu System
+- [ ] Loops
+- [ ] Functions
+- [ ] Lists
+- [ ] Dictionaries
+- [ ] File Storage
