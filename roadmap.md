@@ -10,7 +10,7 @@
 
 - Profile Validation
 
-## Version 0.3.0
+## Version 0.3.0 ✅
 
 - Decision Making (if statements)
 

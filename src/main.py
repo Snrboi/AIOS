@@ -22,11 +22,11 @@ print(f"Welcome, {name}!")
 print(line)
 print(f"Name: {name}")
 print(f"Age: {age}")
-print(f"Location: {location}")
+print(f"Location: {location}".title())
 print(f"Current Program: {current_program}")
 print(f"Dream Career: {dream_career}")
-print(f"Github: {github}")
-print(f"Favourite Club: {favourite_club}")
+print(f"Github: {github}".title())
+print(f"Favourite Club: {favourite_club}".title())
 
 # Validation Section
 print(line)
@@ -41,13 +41,19 @@ print(line)
 print("    PERSONALIZED MESSAGES")
 print(line)
 if age >= 18:
-    print("Access level: Adult.")
+    print("Adult User Verified")
+else:
+    print(f"Too young \n Cannot access this feature")
 
 if favourite_club == "chelsea":
-    print("Up The Mighty Chels!!!")
+    print("Welcome!!! World Champion \n Keep the blue flag flying high")
+else:
+    print(f"Welcome! {favourite_club .title()} fan \n All fans are welcome here")
 
 if github == "snrboi":
     print("GitHub profile recognized.")
+else:
+    print("User profile not found")
 
 
 # Utilities Section

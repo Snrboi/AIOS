@@ -1,5 +1,23 @@
 # Changelog
 
+
+## v0.3.0
+
+### Added
+
+- Personalized Messages section
+- Adult user recognition
+- Chelsea supporter recognition
+- GitHub username recognition
+
+### Improved
+
+- Cleaner input handling using `.strip()`
+- Automatic formatting with `.title()` and `.lower()`
+- Introduced reusable separator variable for cleaner code
+
+---
+
 ## v0.2.0
 
 ### Added
