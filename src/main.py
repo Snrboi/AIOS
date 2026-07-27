@@ -35,6 +35,9 @@ print(line)
 print(f"Adult: {age >= 18}")
 print(f"Chelsea Fan: {favourite_club == 'chelsea'}")
 print(f"Github Username Matches: {github == 'snrboi'}")
+developer_verified = age >= 18 and github == "snrboi"
+
+print(f"Developer Verified: {developer_verified}")
 
 # Personalized messages Section
 print(line)
@@ -54,6 +57,7 @@ if github == "snrboi":
     print("GitHub profile recognized.")
 else:
     print("User profile not found")
+
 
 
 # Utilities Section
