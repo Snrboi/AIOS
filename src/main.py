@@ -3,7 +3,7 @@ line = "=" * 40
 # Welcome Section
 print(line)
 print("   WELCOME TO DEVELOPER OS")
-print("Current Version: v 0.3.0")
+print("Current Version: v 0.4.0")
 print(line)
 
 # Data Collection Section
@@ -19,13 +19,19 @@ favourite_club = input("What is your Favourite football club? ").strip().lower()
 print(line)
 print("      PROFILE")
 print(f"Welcome, {name}!")
+if age >= 18 and github == "snrboi":
+    print("Role: Lead AI Engineer")
+elif age < 18:
+    print("Role: AI Student")
+else:
+    print("Role: Community Member")
 print(line)
 print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"Location: {location}".title())
 print(f"Current Program: {current_program}")
 print(f"Dream Career: {dream_career}")
-print(f"Github: {github}".title())
+print(f"Github: {github}")
 print(f"Favourite Club: {favourite_club}".title())
 
 # Validation Section
@@ -35,31 +41,31 @@ print(line)
 print(f"Adult: {age >= 18}")
 print(f"Chelsea Fan: {favourite_club == 'chelsea'}")
 print(f"Github Username Matches: {github == 'snrboi'}")
-developer_verified = age >= 18 and github == "snrboi"
-
-print(f"Developer Verified: {developer_verified}")
 
 # Personalized messages Section
 print(line)
 print("    PERSONALIZED MESSAGES")
 print(line)
-if age >= 18:
-    print("Adult User Verified")
+if age >= 18 and github == "snrboi":
+    print("Adult User Verified, Welcome snrboi")
+elif age < 18 and github == "snrboi":
+    print("Github verified but not up to 18 years.")
+elif age >= 18 and github != "snrboi":
+    print("Age verified but not snrboi")
 else:
-    print(f"Too young \n Cannot access this feature")
+    print(f"Must be up to 18 and 'snrboi' to access this platform")
 
-if favourite_club == "chelsea":
-    print("Welcome!!! World Champion \n Keep the blue flag flying high")
+
+if favourite_club == "chelsea" or favourite_club == "barcelona":
+    print("Welcome!!! World Champions \n Keep soaring")
 else:
-    print(f"Welcome! {favourite_club .title()} fan \n All fans are welcome here")
-
-if github == "snrboi":
-    print("GitHub profile recognized.")
-else:
-    print("User profile not found")
+    print(f"Welcome! {favourite_club.title()} fan \n All fans are welcome here")
 
 
+logged_in = True
 
+if not logged_in:
+    print("Please login")
 # Utilities Section
 print(line)
 print("  LOADING DEVELOPER UTILITIES.....")
@@ -81,5 +87,5 @@ print(f"Power: {a ** b}")
 # Goodbye section
 print(line)
 print("Thank you for using DeveloperOS!")
-print("Version: v0.3.0")
+print("Version: v0.4.0")
 print(line)

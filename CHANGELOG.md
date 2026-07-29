@@ -1,7 +1,27 @@
 # Changelog
 
+All notable changes to AIOS will be documented in this file.
 
-## v0.3.0
+---
+
+## Version 0.4.0
+
+### Added
+
+- User role assignment system
+- Multi-level verification using `if`, `elif`, and `else`
+- AI-inspired user role classification
+- Smarter personalized messages
+
+### Improved
+
+- Replaced multiple independent `if` statements with a single `if-elif-else` decision chain
+- Improved profile display and verification flow
+- Continued organizing AIOS into clear functional sections
+
+---
+
+## Version 0.3.0
 
 ### Added
 
@@ -13,12 +33,12 @@
 ### Improved
 
 - Cleaner input handling using `.strip()`
-- Automatic formatting with `.title()` and `.lower()`
-- Introduced reusable separator variable for cleaner code
+- Automatic text formatting using `.title()` and `.lower()`
+- Introduced a reusable separator variable for cleaner code
 
 ---
 
-## v0.2.0
+## Version 0.2.0
 
 ### Added
 
@@ -30,15 +50,15 @@
 ### Improved
 
 - Better project structure
-- Cleaner user interface
-- Adopted snake_case variable naming
+- Cleaner terminal interface
+- Adopted `snake_case` variable naming
 
 ---
 
-## v0.1.0
+## Version 0.1.0
 
 ### Added
 
 - Welcome screen
 - User profile
-- Calculator
+- Simple calculator
