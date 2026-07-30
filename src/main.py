@@ -19,12 +19,19 @@ favourite_club = input("What is your Favourite football club? ").strip().lower()
 print(line)
 print("      PROFILE")
 print(f"Welcome, {name}!")
-if age >= 18 and github == "snrboi":
-    print("Role: Lead AI Engineer")
-elif age < 18:
-    print("Role: AI Student")
+print(line)
+# Role Validation
+print(line)
+print("     Role")
+print(line)
+print(line)
+if age >= 18:
+    if github == "snrboi":
+        print("Role: Lead AI Engineer")
+    else:
+        print("Role: Community Developer")
 else:
-    print("Role: Community Member")
+    print("Role: AI Student")
 print(line)
 print(f"Name: {name}")
 print(f"Age: {age}")
@@ -46,26 +53,33 @@ print(f"Github Username Matches: {github == 'snrboi'}")
 print(line)
 print("    PERSONALIZED MESSAGES")
 print(line)
-if age >= 18 and github == "snrboi":
-    print("Adult User Verified, Welcome snrboi")
-elif age < 18 and github == "snrboi":
-    print("Github verified but not up to 18 years.")
-elif age >= 18 and github != "snrboi":
-    print("Age verified but not snrboi")
+# github and age validation
+if age >= 18:
+    if github == "snrboi":
+        print("Role: Lead AI Engineer")
+    else:
+        print("Role: Community Developer")
 else:
-    print(f"Must be up to 18 and 'snrboi' to access this platform")
+    print("Role: AI Student")
 
-
-if favourite_club == "chelsea" or favourite_club == "barcelona":
-    print("Welcome!!! World Champions \n Keep soaring")
+# football club and age validation
+if favourite_club == "chelsea":
+    if age >= 18:
+        print("Premium Chelsea Member")
+    else:
+        print("Junior Chelsea Member")
 else:
-    print(f"Welcome! {favourite_club.title()} fan \n All fans are welcome here")
+    print("Welcome, football fan!")
 
-
+# log in validation
 logged_in = True
 
-if not logged_in:
+if logged_in:
+    print("Session Active")
+else:
     print("Please login")
+
+
 # Utilities Section
 print(line)
 print("  LOADING DEVELOPER UTILITIES.....")

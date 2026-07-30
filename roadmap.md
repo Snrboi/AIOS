@@ -1,43 +1,52 @@
-# DeveloperOS Roadmap
+# AIOS Roadmap
 
 ## Version 0.1.0 ✅
-
 - Welcome Screen
 - User Profile
-- Calculator
+- Simple Calculator
 
 ## Version 0.2.0 ✅
-
 - Profile Validation
+- Input Formatting
+- Cleaner User Interface
 
 ## Version 0.3.0 ✅
+- Decision Making (`if` / `else`)
+- Personalized User Messages
 
-- Decision Making (if statements)
+## Version 0.4.0 
+- Multi-Branch Decisions (`elif`)
+- Role Assignment
+- Smarter User Classification
 
-## Version 0.4.0
-
-- Menu Navigation
-
-## Version 0.5.0
-
-- Loops
+## Version 0.5.0 
+- Nested Conditional Logic
+- Session Verification
+- Football Membership Verification
+- Improved Authentication Flow
 
 ## Version 0.6.0
-
-- Functions
+- Loops
+- Interactive Menu System
+- Continuous Program Execution
 
 ## Version 0.7.0
-
-- Lists
+- Functions
+- Modular Code Structure
+- Code Reusability
 
 ## Version 0.8.0
-
-- Dictionaries
+- Lists
+- Data Management
+- Multiple User Support
 
 ## Version 0.9.0
-
-- File Storage
+- Dictionaries
+- User Records
+- AI Configuration Storage
 
 ## Version 1.0.0
-
-- Complete DeveloperOS
+- File Storage
+- Persistent User Profiles
+- AIOS Command Center
+- Complete Beginner Edition

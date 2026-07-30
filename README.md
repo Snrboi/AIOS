@@ -12,9 +12,11 @@ v0.4.0
 
 - Welcome Screen
 - User Profile Management
-- User Role Assignment
+- Nested Role Assignment
 - Profile Validation
 - Personalized User Messages
+- Football Membership Verification
+- Session Status Verification
 - Simple Calculator
 - Structured Terminal Interface
 
@@ -34,24 +36,25 @@ v0.4.0
 
 ## AI Engineering Roadmap
 
-AIOS is designed to evolve alongside my AI Engineering journey.
+AIOS grows alongside my AI Engineering journey.
 
-As I learn new concepts, I will continue adding intelligent features until AIOS becomes a fully featured AI-powered developer assistant.
+Every Python concept I learn is immediately integrated into the project, allowing AIOS to evolve from a simple terminal application into an AI-inspired developer assistant.
 
-### Planned Features
+Current Progress:
 
-- [x] User Profile
-- [x] Calculator
-- [x] Profile Validation
-- [x] Decision Making (`if`, `elif`, `else`)
-- [ ] Menu System
-- [ ] Loops
-- [ ] Functions
-- [ ] Lists
-- [ ] Dictionaries
-- [ ] File Storage
-- [ ] Modular Project Structure
-- [ ] AI Command Assistant
-- [ ] Local AI Chat Interface
-- [ ] Prompt Library
-- [ ] AI Developer Toolkit
+- ✅ User Profile Management
+- ✅ Calculator
+- ✅ Profile Validation
+- ✅ Decision Making (`if`, `elif`, `else`)
+- ✅ Nested Conditional Logic
+
+Upcoming Milestones:
+
+- 🔄 Loops & Interactive Menus
+- 🔄 Functions & Modular Design
+- 🔄 Lists & Data Management
+- 🔄 Dictionaries & User Records
+- 🔄 File Storage & Persistent Data
+- 🔄 AI Developer Tools
+
+> See **ROADMAP.md** for the complete development roadmap.
