@@ -14,7 +14,7 @@
 - Decision Making (`if` / `else`)
 - Personalized User Messages
 
-## Version 0.4.0 
+## Version 0.4.0 ✅
 - Multi-Branch Decisions (`elif`)
 - Role Assignment
 - Smarter User Classification

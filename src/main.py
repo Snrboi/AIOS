@@ -14,6 +14,8 @@ current_program = input("What program are you currently learning? ").title().str
 dream_career = input("What is your dream profession? ").title().strip()
 github = input("What is your Github username? ").strip().lower()
 favourite_club = input("What is your Favourite football club? ").strip().lower()
+print("Profile data collected successfully!")
+
 
 # Welcome Page
 print(line)
@@ -23,7 +25,6 @@ print(line)
 # Role Validation
 print(line)
 print("     Role")
-print(line)
 print(line)
 if age >= 18:
     if github == "snrboi":
@@ -74,10 +75,25 @@ else:
 # log in validation
 logged_in = True
 
-if logged_in:
-    print("Session Active")
-else:
-    print("Please login")
+while logged_in:
+    print(line)
+    print("       AIOS MAIN MENU")
+    print(line)
+    print("1. Calculator")
+    print("2. View Profile")
+    print("3. Exit")
+    
+    choice = input("Please enter your choice (1-3): ").strip()
+
+    if choice == "1":
+        print("Calculator coming soon....")
+    elif choice == "2":
+        print("Displaying Profile....")
+    elif choice == "3":
+        logged_in = False
+        print("Goodbye!")
+    else:
+        print("Invalid Choice please select (1-3)")
 
 
 # Utilities Section

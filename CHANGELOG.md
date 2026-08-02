@@ -3,6 +3,23 @@
 All notable changes to AIOS will be documented in this file.
 
 ---
+## Version 0.5.0 (In Progress)
+
+### Added
+- Application runtime using a `while` loop
+- AIOS Main Menu
+- Menu navigation system
+- User choice handling
+- Exit option controlled by application state (`logged_in`)
+
+### Improved
+- AIOS now remains active until the user chooses to exit.
+- Introduced a clear separation between initialization and runtime.
+- Established the foundation for a fully interactive command-line application.
+
+### Upcoming
+- Integrate Calculator into the Main Menu.
+- Integrate Profile Viewer into the Main Menu.
 
 ## Version 0.4.0
 
