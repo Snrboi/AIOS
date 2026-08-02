@@ -6,7 +6,7 @@ Rather than creating many unrelated mini-projects, AIOS grows with every new con
 
 ## Current Version
 
-v0.4.0
+v0.5.0
 
 ## Current Features
 
